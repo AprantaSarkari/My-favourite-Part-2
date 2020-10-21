@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(#FFF59D 0%, #81D4FA 100%);
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 250px;
+}
+
+h1 {
+    text-shadow: 2px 2px #F44336;
+    font-family: 'Staatliches', cursive;
+}
+
+h2 {
+    text-shadow: 1px 1px #D81B60;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    font-family: fantasy;
+    position: absolute;
+    z-index: 1000;
+}
+.thing{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    color: black;
+}
+.thing:hover{
+    font-size:35px;
+    color:purple;
+}
+
